@@ -1,0 +1,38 @@
+ cards + 1 joker 
+    create a variable of each type of card 
+    Clubs (♣): Black 
+    Diamonds (♦): Red 
+    Hearts (♥): Red 
+    Spades (♠): Black 
+
+Inspirartion to create a double array 
+    using randint get 1 int from each variable 
+
+import enum
+
+#types of cards 
+d = []
+s = []
+h = []
+c = []
+
+for rank in range (1,14):
+d.append([d, rank])
+s.append([s, rank])
+h.append([h, rank])
+c.append([c, rank])
+
+total_cards(52)
+joker_card.append(+1)
+
+    
+deck = d + s + h + c 
+random.shuffle(deck)
+
+for range in (5): 
+
+
+import random 
+
+
+using logic from previous rep, using self to installize an object being card, should work 
