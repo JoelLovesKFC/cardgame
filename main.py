@@ -1,8 +1,8 @@
 import random
 
 class Cards:
-    def __init__(self):
-        # Initialize suits with ranks as double arrays
+    def __init__(self): #constructor, inspir from prv code
+        # Initialize, double arrays
         self.diamonds = [["Diamonds", rank] for rank in range(1, 14)]
         self.spades = [["Spades", rank] for rank in range(1, 14)]
         self.hearts = [["Hearts", rank] for rank in range(1, 14)]
